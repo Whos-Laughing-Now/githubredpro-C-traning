@@ -1,0 +1,137 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin          : 0px;
+    padding         : 0px;
+    font-family     : sans-serif;
+    background-color: aqua;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+
+    top        : 0;
+    left       : 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main {
+    margin-top: 50px;
+    width           : 1000px;
+    height          : auto;
+    background-color: rgb(10, 10, 10);
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    flex-direction  : column;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#grid {
+
+    width           : 90%;
+    height          : auto;
+    background-color: rgb(228, 225, 220);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+input {  
+    width      : 50%;
+}
+
+#btnGanador{
+    background-color: palegreen;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.reset{
+    width: 10%;
+    height: 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 40px;
+    color: red;
+   
+}
+input, button {
+    padding: 20px;
+    
+}
+
+label {
+    width     : 100%;
+    color     : rgb(0, 0, 0);
+    padding   : 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#salidaDatos {
+    margin-left: 20px;
+    margin-top : 20px;
+}
+
+h3 {
+    border-bottom: 2px solid #000;
+    width        : 80%;
+}
+
+h1, h2{
+    color: #fff;
+
+}
+
+#salidaDatos{
+    padding: 20px;
+}
+
+/*
+ * ─── NOMBRES ALEATORIOS ─────────────────────────────────────────────────────────
+ */
+
+
+
+ #main2 {
+    margin-top: 10PX;
+    width           : 1000px;
+    height          : auto;
+    background-color: rgb(209, 136, 27);
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    flex-direction  : column;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+ #grid2 {
+
+    width           : 90%;
+    height          : auto;
+    background-color: rgb(228, 225, 220);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  
+}
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+ h4{
+
+text-align: center;
+font-size: 25px;
+}
+#btnClick{
+    background-color: palegreen;
+}
+
+
+#ganador{
+    padding: 20px;
+}
