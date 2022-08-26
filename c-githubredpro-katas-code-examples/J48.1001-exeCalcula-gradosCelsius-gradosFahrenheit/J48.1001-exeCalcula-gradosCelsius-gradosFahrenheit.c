@@ -11,15 +11,12 @@ int main ( void ){ // Funcion principal
 	// Definicion de las variables flotantes
 	float gradosCelius, gradosFahren;
 	
-	
 	// Muestra por pantalla ( output )cuerpoo del mensaje
-	printf("Introduce los grados celsius");
+	printf("Introduce los grados celsius : ");
 	scanf ("%f",&gradosCelius );
-	
 	
 	// Operacion a realizar para calcular los grdos Fahrenheit ( Buscar en internet	)
 	gradosFahren = (gradosCelius * 9/2) + 32;
-	
 	
 	// Imprime por pantalla el cuerpo del mensaje con el resultado de la operacion gradosFahren
 	printf("La conversion de grados Celius a Grados Fahrenheit es de : %f", gradosFahren);
